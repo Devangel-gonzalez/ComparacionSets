@@ -1,5 +1,5 @@
 # Práctica: HashSet vs. TreeSet en Java Collections Framework
-
+Angel Israel Gonzalez Torres
 ## 1. Propósito
 
 `HashSet` y `TreeSet` implementan la interfaz `Set<E>` del Java
@@ -71,7 +71,14 @@ SQL
 ```
 
 **Pregunta:** ¿En qué situaciones sería importante garantizar que un
-elemento aparezca una sola vez?
+elemento aparezca una sola vez?  
+En situaciones donde elementos duplicados causen errores y redundancia, por ejemplo:  
+ID de usuarios  
+Matriculas  
+Validar si un dato ya existe antes de agregarlo  
+Evitar repeticiones  
+Para optimizar la memoria  
+Contar elementos, si hay duplicados puede falsear los resultados 
 
 ## 5. Trabajar con HashSet
 
