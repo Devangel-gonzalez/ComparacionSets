@@ -106,7 +106,10 @@ public class EjemploHashSet {
 
 Analice cuántos elementos se intentaron agregar, cuántos permanecen y
 qué ocurre con los duplicados. Observe también que `HashSet` no
-garantiza el orden de iteración.
+garantiza el orden de iteración.  
+Se intentaron agregar 8 elementos, pero como `HashSet` no acepta duplicados, solo se agregaron 6:  
+`[Java, Git, Docker, JavaScript, Python, SQL]`  
+No se imprimieron en el orden en el que se agregaron porque `HashSet` porque el orden puede cambiar segun la JVM y la implementacion interna del hash
 
 ## 6. Resultado de add()
 
